@@ -1,0 +1,30 @@
+# أنظمة التشغيل / Operating systems
+.DS_Store
+Thumbs.db
+
+# المحررات / Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# الأسرار ومتغيرات البيئة / Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# السجلات / Logs
+*.log
+logs/
+
+# التبعيات ومخرجات البناء / Dependencies and build output
+node_modules/
+vendor/
+venv/
+__pycache__/
+dist/
+build/
+.next/
+coverage/
